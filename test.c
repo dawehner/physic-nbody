@@ -29,7 +29,7 @@ int main() {
   // printf("%d", input);
   
   // Get some values.
-  printf("Please input a x^2 + b x + c = 0");
+  printf("Please input a x^2 + b x + c = 0\n");
   scanf("%lf", &input_a);
   scanf("%lf", &input_b);
   scanf("%lf", &input_c);
