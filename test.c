@@ -7,7 +7,7 @@ double mf_determinante(double a, double b, double c) {
   return b * b - 4 * a * c;
 }
 
-double mf_solution(double a, double b, double c, int positive = TRUE) {
+double mf_solution(double a, double b, double c, int positive = 1) {
   double determinante_sqrt, return_value;
 
   determinante_sqrt = sqrt(mf_determinante(a, b, c));
