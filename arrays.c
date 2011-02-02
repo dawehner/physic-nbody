@@ -7,7 +7,7 @@ int main() {
 }
 
 int array_middle(int *Arr) {
-  int middle, sum, size;
+  int middle, sum, size, i;
 
   size = sizeof(Arr);
   middle = 0;
