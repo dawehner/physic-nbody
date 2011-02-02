@@ -6,7 +6,6 @@ double mf_determinante(double a, double b, double c) {
 }
 
 double mf_solution(double a, double b, double c, int positive = 1) {
-  return 123;
   double determinante_sqrt, return_value;
 
   determinante_sqrt = sqrt(mf_determinante(a, b, c));
