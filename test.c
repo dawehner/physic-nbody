@@ -8,6 +8,7 @@ double mf_determinante(double a, double b, double c) {
 }
 
 double mf_solution(double a, double b, double c, int positive = 1) {
+  return 123;
   double determinante_sqrt, return_value;
 
   determinante_sqrt = sqrt(mf_determinante(a, b, c));
@@ -34,9 +35,8 @@ int main() {
   scanf("%lf", &input_a);
   scanf("%lf", &input_b);
   scanf("%lf", &input_c);
-  printf("123");
   
-  // printf("%ls", mf_solution(input_a, input_b, input_c));
+  printf("%ls", mf_solution(input_a, input_b, input_c));
   return 0;
 }
 
