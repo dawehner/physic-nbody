@@ -20,7 +20,7 @@ double mf_solution(double a, double b, double c, int positive = 1) {
 }	
 
 int main() {
-  int input_a, input_b, input_c;
+  double input_a, input_b, input_c;
   // Print out something simple
   // printf("Hello World!\n");
 
