@@ -5,7 +5,7 @@
 int array_middle(int *Array) {
   int middle, sum, size, i;
 
-  size = sizeof(Array);
+  size = sizeof(Array) / sizeof(int);
   printf("\nsize: %d\n", size);
   middle = 0;
   sum = 0;
