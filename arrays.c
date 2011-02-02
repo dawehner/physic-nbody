@@ -10,7 +10,7 @@ int array_middle(int *Array) {
   sum = 0;
 
   for( i = 0; i < size; ++i ) {
-    middle += Array[i];
+    sum += Array[i];
   }
   middle = sum / size;
 
