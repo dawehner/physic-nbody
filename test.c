@@ -34,8 +34,9 @@ int main() {
   scanf("%lf", &input_a);
   scanf("%lf", &input_b);
   scanf("%lf", &input_c);
+  printf("123");
   
-  printf("%ls", mf_solution(input_a, input_b, input_c));
+  // printf("%ls", mf_solution(input_a, input_b, input_c));
   return 0;
 }
 
