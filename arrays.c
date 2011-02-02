@@ -19,6 +19,6 @@ int array_middle(int *Array) {
 
 int main() {
   int Array[5] = { 1, 1, 1, 1, 1 };
-  printf("%d", array_middle(Array);
+  printf("%d", array_middle(Array));
   return 0;
 }
