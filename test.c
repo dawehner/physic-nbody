@@ -3,6 +3,22 @@
 #include <stdio.h>
 #include <math.h>
 
+double mf_determinante(double a, double b, double c) {
+  return b * b - 4 * a * c;
+}
+
+double mf_solution(double a, double b, double c, int positive = TRUE) {
+  double determinante_sqrt, return_value;
+
+  determinante_sqrt = sqrt(mf_determinante(a, b, c));
+
+  return_value = (- b * determinante_sqrt ) / (2 * a);
+  if (!positive) {
+    return_value *= -1;
+  }
+  return return_value;
+}	
+
 int main() {
   int input_a, input_b, input_c;
   // Print out something simple
@@ -23,18 +39,3 @@ int main() {
   return 0;
 }
 
-double mf_solution(double a, double b, double c, int positive = TRUE) {
-  double determinante_sqrt, return_value;
-
-  determinante_sqrt = sqrt(mf_determinante(a, b, c));
-
-  return_value = (- b * determinante_sqrt ) / (2 * a);
-  if (!positive) {
-    return_value *= -1;
-  }
-  return return_value;
-}	
-
-double mf_determinante(double a, double b, double c) {
-  return b * b - 4 * a * c;
-}
