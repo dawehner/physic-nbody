@@ -1,6 +1,5 @@
-test.c:
-	g++ test.c -o test
-
-arrays.c:
+all:
 	g++ arrays.c -o arrays
 
+test.c:
+	g++ test.c -o test
