@@ -8,9 +8,9 @@ int main() {
   printf("Hello World!\n");
 
   // Print out some input
-  scanf("%d", &b);
+  scanf("%d", &input);
   
-  printf("%d", b);
+  printf("%d", input);
     
   return 0;
 }
