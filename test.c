@@ -1,6 +1,4 @@
-﻿/* Das Hello-World-Programm */
-
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <math.h>
 
 double mf_determinante(double a, double b, double c) {
@@ -14,8 +12,8 @@ double mf_solution(double a, double b, double c, int positive = 1) {
   determinante_sqrt = sqrt(mf_determinante(a, b, c));
 
   return_value = (- b * determinante_sqrt ) / (2 * a);
-  if (!positive) {
-    return_value *= -1;
+  if (!positive) {   
+   return_value *= -1;
   }
   return return_value;
 }	
