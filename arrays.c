@@ -1,11 +1,6 @@
 ﻿#include <stdio.h>
 #include <math.h>
 
-int main() {
-  int Array[5] = { 1, 1, 1, 1, 1 };
-  printf("%d", array_middle(Array);
-  return 0;
-}
 
 int array_middle(int *Array) {
   int middle, sum, size, i;
@@ -21,4 +16,9 @@ int array_middle(int *Array) {
 
   return size;
 }
-  
+
+int main() {
+  int Array[5] = { 1, 1, 1, 1, 1 };
+  printf("%d", array_middle(Array);
+  return 0;
+}
