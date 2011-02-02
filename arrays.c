@@ -21,7 +21,7 @@ int array_middle(int *Array) {
 }
 
 int main() {
-  int Array[5] = { 1, 1, 1, 1, 1 };
+  int Array[5] = { 1, 2, 3, 4, 5 };
   printf("%d", array_middle(Array));
   return 0;
 }
