@@ -1,5 +1,8 @@
 all:
-	g++ arrays.c -o arrays
+	g++ qt_test.cpp -o qt_test
 
+qt_test:
+	g++ qt_test.cpp -o qt_test
+	
 test.c:
 	g++ test.c -o test
