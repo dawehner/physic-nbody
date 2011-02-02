@@ -6,15 +6,18 @@ int array_middle(int *Array) {
   int middle, sum, size, i;
 
   size = sizeof(Array);
+  printf("size: %d", size);
   middle = 0;
   sum = 0;
 
   for( i = 0; i < size; ++i ) {
     sum += Array[i];
   }
+  printf("sum: %d", sum);
   middle = sum / size;
+  printf("middle: %d", middle);
 
-  return size;
+  return middle;
 }
 
 int main() {
