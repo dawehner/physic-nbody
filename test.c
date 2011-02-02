@@ -9,7 +9,7 @@ double mf_solution(double a, double b, double c, int positive = 1) {
   double determinante_sqrt, return_value;
 
   determinante_sqrt = sqrt(mf_determinante(a, b, c));
-  printf("%ls", determinante_sqrt);
+  // printf("%lf", determinante_sqrt);
 
   return_value = (- b * determinante_sqrt ) / (2 * a);
   if (!positive) {   
