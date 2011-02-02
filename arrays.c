@@ -2,26 +2,22 @@
 #include <math.h>
 
 
-int array_middle(int *Array) {
-  int middle, sum, size, i;
+int array_middle(int *Array, int size) {
+  int middle, sum, i;
 
-  size = sizeof(Array) / sizeof(int);
-  printf("\nsize: %d\n", size);
   middle = 0;
   sum = 0;
 
   for( i = 0; i < size; ++i ) {
     sum = sum + Array[i];
   }
-  printf("sum: %d\n", sum);
   middle = sum / size;
-  printf("middle: %d\n", middle);
 
   return middle;
 }
 
 int main() {
   int Array[5] = { 1, 2, 3, 4, 5 };
-  printf("%d", array_middle(Array));
+  printf("%d", array_middle(Array, 5));
   return 0;
 }
