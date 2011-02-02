@@ -11,7 +11,7 @@ int array_middle(int *Array) {
   sum = 0;
 
   for( i = 0; i < size; ++i ) {
-    sum += Array[i];
+    sum = sum + Array[i];
   }
   printf("sum: %d\n", sum);
   middle = sum / size;
