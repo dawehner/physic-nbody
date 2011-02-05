@@ -1,5 +1,5 @@
 all:
-	g++ qt_test.cpp -o qt_test
+	g++ -I /usr/include/eigen2 eigen.cpp -o qt_test
 
 qt_test:
 	g++ qt_test.cpp -o qt_test
