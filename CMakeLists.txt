@@ -8,8 +8,8 @@ set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
 # find_package(GSL REQUIRED)
 
-find_package(Eigen2 REQUIRED)
-include_directories(${EIGEN2_INCLUDE_DIR})
+find_package(Eigen3 REQUIRED)
+include_directories(${EIGEN3_INCLUDE_DIR})
 
 # find_package(Qt4 REQUIRED)
 # include_directories(${QT_INCLUDE_DIR})
